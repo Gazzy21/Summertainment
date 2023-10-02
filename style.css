@@ -1,0 +1,14 @@
+body {
+    color:white;
+    background-color: black;
+}
+
+.mytripheading {
+    margin: 3vw;
+    font-size: 8vw;
+    
+}
+
+#borderwhite {
+    border: 2px white;
+}
