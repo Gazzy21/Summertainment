@@ -3,7 +3,13 @@
     z-index: -1;
 }
 
-.acadia1 {
-    height: 3vh;
-    
+.acadiahero {
+    max-height: 75vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.acadia-desc {
+    font-size: 1.25vw;
 }
