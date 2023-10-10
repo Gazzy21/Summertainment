@@ -1,5 +1,5 @@
 .acadia-bg {
-    border: 2px dotted red;
+    border: 2px solid blue;
     z-index: -1;
 }
 
@@ -12,4 +12,20 @@
 
 .acadia-desc {
     font-size: 1.25vw;
+}
+
+.headertype1 {
+    font-size: 3.5vw;
+    -webkit-text-stroke: 2px blue;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.headertype2 {
+    font-size: 2.5vw;
+    -webkit-text-stroke: 2px blue;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+body {
+    font-family: 'Tilt Neon', sans-serif;
 }

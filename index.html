@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" p-0 m-0>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Acadia Hiking Trip</title>
+    <title>My Acadia Hiking Trip</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -11,13 +11,21 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="vh-100">
+  <body class="vh-100 text-white bg-black overflow-x-hidden">
     <!--Nav-->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary z-1">
+    <nav class="navbar navbar-expand-lg text-bg-dark z-1">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Acadia Hiking Trip</a>
+        <a class="navbar-brand" href="#"
+          >My Hiking Trip to Acadia National Park in Maine.</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -31,10 +39,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="#whatisacadia">What is Acadia?</a>
+            <a class="nav-link" href="#whathikesacadia"
+              >What Hikes Did I Challenge?</a
+            >
+            <a class="nav-link" href="#recommendation"
+              >Would I Recommend Going?</a
+            >
+            <a class="nav-link" href="#">Learn More</a>
           </div>
         </div>
       </div>
@@ -53,14 +65,25 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <h1 class="text-center m-auto p-5">Acadia National Park, Maine</h1>
+          <h1 class="text-center m-auto p-5 headertype1">
+            Acadia National Park, Maine
+          </h1>
         </div>
       </div>
+
+      <div class="row" id="whatisacadia">
+        <div class="col-12">
+          <h1 class="text-center m-auto p-5 headertype2">
+            What is Acadia National Park?
+          </h1>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-5 m-auto text-center">
           <img class="img img-fluid" src="placeholder1.jpg" />
         </div>
-        <div class="col-7 m-auto acadia-desc">
+        <div class="col-7 m-auto acadia-desc p-5">
           <p class="text-center">
             Acadia National Park, located in the picturesque state of Maine, is
             a stunning natural gem renowned for its rugged coastal landscapes,
@@ -76,6 +99,93 @@
             a favorite destination for those seeking both outdoor adventure and
             a taste of coastal culture.
           </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center m-auto p-5 headertype2">
+            What Hikes Did I Challenge?
+          </h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-7 m-auto acadia-desc p-5">
+          <p class="text-center">
+            Cadillac Mountain and Beehive Trails are popular summit hikes in
+            Acadia National Park. Cadillac Mountain offers stunning panoramic
+            views and is known for being the highest peak on the East Coast. The
+            trail provides a moderate challenge and is accessible by car as
+            well. On the other hand, the Beehive Trail is a thrilling and more
+            strenuous option, featuring iron rungs and ladders along the route.
+            It provides a unique and adventurous experience for hikers. Both
+            trails offer breathtaking scenery and opportunities to connect with
+            nature in the beautiful setting of Acadia National Park.
+          </p>
+        </div>
+        <div class="col-5 m-auto text-center">
+          <img class="img img-fluid" src="placeholder1.jpg" />
+        </div>
+      </div>
+
+      <div class="row p-0">
+        <div class="col-12">
+          <h1 class="text-center m-auto p-5 headertype2">
+            Would I Recommend Going?
+          </h1>
+        </div>
+
+        <div class="col-6">
+          <ul class="list-group">
+            <li class="list-group-item active" aria-current="true">
+              Cadillac Ridge Mountain Trail
+            </li>
+            <li class="list-group-item">Great For Beginners</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">About 8 Miles Round Trip</li>
+            <li class="list-group-item">Fun, Relaxing, and Adventurous</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul class="list-group">
+            <li class="list-group-item active" aria-current="true">
+              Beehive Trail
+            </li>
+            <li class="list-group-item">Pretty Good For Beginners</li>
+            <li class="list-group-item">Very Vertically Based</li>
+            <li class="list-group-item">About 4 Miles Round Trip</li>
+            <li class="list-group-item">Fun, Exciting, and Daring</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" id="whatisacadia">
+        <div class="col-12">
+          <h1 class="text-center m-auto p-5 headertype2">Learn More</h1>
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-12 m-auto acadia-desc p-5">
+          <ul class="text-center text-white">
+            <li>
+              <a
+                href="https://www.nps.gov/thingstodo/hike-cadillac-north-ridge-trail.htm"
+                >Cadillac Ridge Mountain Trail</a
+              >
+            </li>
+            <li>
+              <a href="https://www.nps.gov/thingstodo/hike-beehive-loop.htm"
+                >Beehive Trail</a
+              >
+            </li>
+            <li>
+              <a href="https://www.nps.gov/acad/index.htm "
+                >Acadia National Park</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </div>
