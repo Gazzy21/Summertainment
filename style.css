@@ -29,3 +29,11 @@
 body {
     font-family: 'Tilt Neon', sans-serif;
 }
+
+.group1 {
+    left: 50%;
+}
+
+.group2 {
+    right: 50%;
+}
